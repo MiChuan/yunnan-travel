@@ -6,7 +6,7 @@
 
 ## 在线访问
 
-部署完成后访问：**https://codeant-group1.gitlab.io/yunnan-travel/**
+部署完成后访问：**https://michuan.github.io/yunnan-travel/**
 
 ## 功能模块
 
@@ -76,8 +76,8 @@
 │   ├── checklist.json      # 清单数据
 │   ├── weather-locations.json  # 天气地区坐标配置
 │   └── elevation.json      # 海拔变化节点数据
-├── .gitlab-ci.yml          # GitLab Pages 自动部署
-└── .github/workflows/pages.yml  # GitHub Pages 自动部署（镜像仓库用）
+├── .github/workflows/pages.yml  # GitHub Pages 自动部署
+└── .gitlab-ci.yml          # GitLab Pages 自动部署（镜像仓库用）
 ```
 
 ## 本地预览
@@ -99,20 +99,21 @@ powershell -ExecutionPolicy Bypass -File serve.ps1
 
 ## 部署
 
-### GitLab Pages（本仓库）
+### GitHub Pages（本仓库）
 
-推送到 `main` 分支后，`.gitlab-ci.yml` 中的 `pages` 任务会自动将站点发布到 GitLab Pages，地址见 **Deploy → Pages**（默认为 https://codeant-group1.gitlab.io/yunnan-travel/ ）。
+1. 打开仓库 **Settings → Pages**，**Build and deployment → Source** 选择 **GitHub Actions**
+2. 推送到 `main` 分支后，`.github/workflows/pages.yml` 会自动将站点发布到 GitHub Pages（默认为 https://michuan.github.io/yunnan-travel/ ）
 
 | 问题 | 原因 | 处理 |
 |------|------|------|
 | 流水线未触发 | 未推送到 `main` 分支 | 合并/推送到 `main` |
+| Setup Pages 报 Not Found | 仓库未启用 Pages | Settings → Pages → Source 选 GitHub Actions 后重跑 workflow |
 | 页面 404 | 首次部署仍在构建 | 等 1–2 分钟后刷新 |
 | 样式/数据加载失败 | 使用了绝对路径 | 本项目均为相对路径，检查是否改动 |
 
-### GitHub Pages（镜像仓库）
+### GitLab Pages（镜像仓库）
 
-1. 打开仓库 **Settings → Pages**
-2. **Build and deployment → Source** 选择 **Deploy from a branch**，Branch 选 `main` / root；或选择 **GitHub Actions** 使用 `.github/workflows/pages.yml`
+推送到 `main` 分支后，`.gitlab-ci.yml` 中的 `pages` 任务会自动将站点发布到 GitLab Pages，地址见 **Deploy → Pages**。
 
 ## 数据维护
 
