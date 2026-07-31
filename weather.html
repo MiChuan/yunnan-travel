@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>沿途天气 · 七彩云南环线</title>
+  <meta name="description" content="查看七彩云南环线沿途各地区的当前天气与未来7天预报">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">🌸 七彩云南环线</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">首页</a>
+        <a href="routebook.html" class="nav-link">路书</a>
+        <a href="checklist.html" class="nav-link">物资清单</a>
+        <a href="food.html" class="nav-link">滇味食志</a>
+        <a href="specialty.html" class="nav-link">特产文创</a>
+        <a href="weather.html" class="nav-link active">沿途天气</a>
+        <a href="elevation.html" class="nav-link">海拔变化</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-wrap weather-page">
+    <header class="page-header">
+      <h1>沿途天气</h1>
+      <p>查看环线各地区的实时天气与未来 7 天预报，出发前掌握穿衣与装备参考</p>
+      <div class="meta-tags">
+        <span class="meta-tag">🌡️ 实时温度</span>
+        <span class="meta-tag">📅 7 天预报</span>
+        <span class="meta-tag">⛰️ 11 个途经地区</span>
+      </div>
+    </header>
+
+    <div class="weather-layout">
+      <aside class="card weather-sidebar" aria-label="地区天气导航">
+        <div class="weather-sidebar-title">地区导航</div>
+        <nav class="weather-region-nav" id="regionNav"></nav>
+        <div class="weather-sidebar-actions">
+          <button type="button" class="weather-sidebar-btn" id="refreshBtn">🔄 刷新天气</button>
+          <a href="#top" class="weather-sidebar-btn weather-sidebar-btn-outline">↑ 返回顶部</a>
+          <a href="index.html" class="weather-sidebar-btn weather-sidebar-btn-outline">🏠 返回首页</a>
+        </div>
+        <p class="weather-sidebar-note" id="lastUpdated"></p>
+      </aside>
+
+      <div class="weather-main">
+        <section class="weather-hero card">
+          <div class="card-body weather-hero-body">
+            <div>
+              <h2>一路向滇，先看天气</h2>
+              <p>数据来自 Open-Meteo 气象服务，覆盖路线上的主要城市与景点。云南 8 月为雨季，午后多阵雨且高原昼夜温差大，请以实际体感为准并备好雨具。</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="weather-grid" id="weatherGrid" aria-label="各地区天气详情"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>沿途天气 · 数据仅供参考 · <a href="index.html" class="footer-home-link">返回首页</a></p>
+  </footer>
+
+  <script src="js/weather.js"></script>
+</body>
+</html>

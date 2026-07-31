@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>特产文创 · 七彩云南环线</title>
+  <meta name="description" content="昆明、大理、丽江、泸沽湖四地特色物产与文创好物合集，带图片与地区锚点导航">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">🌸 七彩云南环线</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">首页</a>
+        <a href="routebook.html" class="nav-link">路书</a>
+        <a href="checklist.html" class="nav-link">物资清单</a>
+        <a href="food.html" class="nav-link">滇味食志</a>
+        <a href="specialty.html" class="nav-link active">特产文创</a>
+        <a href="weather.html" class="nav-link">沿途天气</a>
+        <a href="elevation.html" class="nav-link">海拔变化</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-wrap food-page specialty-page">
+    <header class="page-header">
+      <h1>特产文创</h1>
+      <p>带一份地道好物回家 — 昆明、大理、丽江、泸沽湖的特色物产与文创伴手礼</p>
+      <div class="meta-tags">
+        <span class="meta-tag">🎁 四地好物</span>
+        <span class="meta-tag">📷 图文展示</span>
+        <span class="meta-tag">🎨 特产 + 文创</span>
+      </div>
+    </header>
+
+    <div class="food-layout">
+      <aside class="card food-sidebar" aria-label="地区特产导航">
+        <div class="food-sidebar-title">地区导航</div>
+        <nav class="food-province-nav" id="provinceNav">
+          <a href="#kunming" class="food-nav-item" data-province="kunming">
+            <span class="food-nav-icon">🌼</span>
+            <span class="food-nav-text">
+              <strong>昆明</strong>
+              <small>鲜花饼 · 普洱茶 · 云子</small>
+            </span>
+          </a>
+          <a href="#dali" class="food-nav-item" data-province="dali">
+            <span class="food-nav-icon">🏯</span>
+            <span class="food-nav-text">
+              <strong>大理</strong>
+              <small>扎染 · 银器 · 沱茶</small>
+            </span>
+          </a>
+          <a href="#lijiang" class="food-nav-item" data-province="lijiang">
+            <span class="food-nav-icon">🏮</span>
+            <span class="food-nav-text">
+              <strong>丽江</strong>
+              <small>东巴纸 · 披肩 · 雪茶</small>
+            </span>
+          </a>
+          <a href="#lugu" class="food-nav-item" data-province="lugu">
+            <span class="food-nav-icon">🌊</span>
+            <span class="food-nav-text">
+              <strong>泸沽湖</strong>
+              <small>手织围巾 · 苏里玛酒</small>
+            </span>
+          </a>
+        </nav>
+        <div class="food-sidebar-actions">
+          <a href="#top" class="food-sidebar-btn">↑ 返回顶部</a>
+          <a href="index.html" class="food-sidebar-btn food-sidebar-btn-outline">🏠 返回首页</a>
+        </div>
+      </aside>
+
+      <div class="food-main">
+        <section class="food-hero card">
+          <div class="card-body food-hero-body">
+            <div>
+              <h2>沿着路线，收一份地道好物</h2>
+              <p>左侧地区导航可快速跳转；每个地区分为「特色物产」与「文创好物」两类，附图片、简介与风味标签，方便挑选伴手礼。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="food-grid" aria-label="地区特产速览">
+          <a class="food-card" href="#kunming">
+            <div class="food-image food-image-kunming"></div>
+            <div class="food-card-body">
+              <h2>昆明</h2>
+              <p>鲜花饼、普洱茶、小粒咖啡与野生菌干货，还有云子围棋与永生花文创。</p>
+              <span class="food-link">查看 7 件好物 →</span>
+            </div>
+          </a>
+
+          <a class="food-card" href="#dali">
+            <div class="food-image food-image-dali"></div>
+            <div class="food-card-body">
+              <h2>大理</h2>
+              <p>下关沱茶、雕梅、乳扇，白族扎染、鹤庆银器与大理石画同样值得收藏。</p>
+              <span class="food-link">查看 7 件好物 →</span>
+            </div>
+          </a>
+
+          <a class="food-card" href="#lijiang">
+            <div class="food-image food-image-lijiang"></div>
+            <div class="food-card-body">
+              <h2>丽江</h2>
+              <p>雪茶、玛卡、丽江雪桃，还有东巴纸、东巴木刻与手工披肩。</p>
+              <span class="food-link">查看 7 件好物 →</span>
+            </div>
+          </a>
+
+          <a class="food-card" href="#lugu">
+            <div class="food-image food-image-lugu"></div>
+            <div class="food-card-body">
+              <h2>泸沽湖</h2>
+              <p>苏里玛酒、盐源苹果、银鱼干，摩梭手织围巾与银饰别具湖畔风情。</p>
+              <span class="food-link">查看 6 件好物 →</span>
+            </div>
+          </a>
+        </section>
+
+        <section class="food-detail-list">
+          <!-- 昆明 -->
+          <article class="food-detail card" id="kunming" data-province="kunming">
+            <div class="food-detail-media food-image-kunming"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>昆明 · 特产文创</h3>
+                <span class="food-dish-count">7 件精选</span>
+              </div>
+              <p class="food-detail-intro">春城的花香与茶香皆可打包：鲜花饼与永生花来自斗南花市，普洱茶与小粒咖啡则是云南高原的味觉名片。</p>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎁 特色物产</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-flower"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">鲜花饼</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">食用玫瑰入馅的酥饼，花香清甜不腻，现烤最佳，昆明伴手礼销量之王。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">玫瑰</span>
+                        <span class="food-tag">点心</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-herb"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">普洱茶</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">云南大叶种晒青茶，生茶清冽、熟茶醇厚，茶饼耐存放，越陈越香。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">茶叶</span>
+                        <span class="food-tag">可收藏</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-fruit"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">云南小粒咖啡</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">保山、普洱产区的阿拉比卡豆，果酸明亮带坚果香，挂耳包便携好送。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">咖啡</span>
+                        <span class="food-tag">高原产区</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-herb"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">野生菌干货</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">干牛肝菌、鸡枞油、松茸干片，轻便易带，回家煲汤炒菜都是山珍味。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">菌子</span>
+                        <span class="food-tag">山珍</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎨 文创好物</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-flower"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">斗南永生花</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">亚洲最大花市的永生花礼盒与干花束，把春城的花期永久保存。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">花艺</span>
+                        <span class="food-tag">礼盒</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-jade"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">云子围棋</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">昆明传统工艺名品，棋子温润如玉、入手沉实，是棋友与藏家的心头好。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">老字号</span>
+                        <span class="food-tag">工艺</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-textile"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">民族刺绣</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">彝绣、苗绣手工包袋与挂饰，配色浓烈图腾感强，民族大观园有售。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">刺绣</span>
+                        <span class="food-tag">民族风</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+
+          <!-- 大理 -->
+          <article class="food-detail card" id="dali" data-province="dali">
+            <div class="food-detail-media food-image-dali"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>大理 · 特产文创</h3>
+                <span class="food-dish-count">7 件精选</span>
+              </div>
+              <p class="food-detail-intro">苍山洱海之间盛产茶与手艺：下关沱茶百年流香，扎染与银器则是白族匠人指尖的浪漫。</p>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎁 特色物产</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-herb"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">下关沱茶</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">窝头状紧压茶，百年老字号，香气馥郁耐冲泡，茶马古道的活化石。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">茶叶</span>
+                        <span class="food-tag">老字号</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-fruit"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">大理雕梅</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">洱源青梅手工雕花腌制，酸甜开胃、造型精巧，白族姑娘的传统手艺。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">果脯</span>
+                        <span class="food-tag">手工</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-scenic"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">乳扇</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">白族风干奶片，可烤可炸可生吃，真空包装方便携带，奶香十足。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">乳制品</span>
+                        <span class="food-tag">白族</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎨 文创好物</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-textile"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">白族扎染</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">周城村板蓝根植物染，蓝白纹样如洱海波光，围巾、桌布皆是国家级非遗。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">非遗</span>
+                        <span class="food-tag">植物染</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-silver"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">鹤庆银器</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">新华村"小锤敲过一千年"，手工银壶、手镯錾刻精美，可现场看打制。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">银器</span>
+                        <span class="food-tag">手工</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-painting"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">大理石画</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">苍山大理石天然纹理如山水画卷，小幅摆件即是独一无二的自然艺术。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">天然纹理</span>
+                        <span class="food-tag">摆件</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-craft"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">甲马版画</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">白族民间木刻版画，古朴神秘的民俗符号，如今被做成帆布包与明信片。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">版画</span>
+                        <span class="food-tag">民俗</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+
+          <!-- 丽江 -->
+          <article class="food-detail card" id="lijiang" data-province="lijiang">
+            <div class="food-detail-media food-image-lijiang"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>丽江 · 特产文创</h3>
+                <span class="food-dish-count">7 件精选</span>
+              </div>
+              <p class="food-detail-intro">雪山脚下既有高原滋补物产，也有东巴文化滋养出的独特文创，白沙与束河的手作小店最值得慢慢逛。</p>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎁 特色物产</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-herb"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">雪茶</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">玉龙雪山高海拔地衣类植物，泡饮清凉回甘，纳西人的传统清火茶。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">高山</span>
+                        <span class="food-tag">清火</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-herb"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">玛卡</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">丽江高寒山区种植的滋补根茎，干片泡水或炖汤，高原馈赠的能量补给。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">滋补</span>
+                        <span class="food-tag">高寒种植</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-fruit"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">丽江雪桃</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">雪山融水浇灌，8-10月成熟，个大核小、脆甜多汁，正当季别错过。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">水果</span>
+                        <span class="food-tag">应季</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎨 文创好物</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-craft"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">东巴纸</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">纳西族古法手工纸，防虫耐存千年，笔记本与灯罩最受欢迎，非遗技艺。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">非遗</span>
+                        <span class="food-tag">手工纸</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-painting"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">东巴木刻</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">以东巴象形文字入刻的木板画与挂牌，把"世界上唯一活着的象形文字"带回家。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">象形文字</span>
+                        <span class="food-tag">木刻</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-textile"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">手工披肩</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">牦牛绒与羊毛手织披肩，古城早晚披着保暖，拍照还自带氛围感。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">保暖</span>
+                        <span class="food-tag">出片</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-silver"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">东巴铃</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">刻着东巴文祝福的风铃与驼铃，声音清脆，挂在门前留住古城记忆。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">风铃</span>
+                        <span class="food-tag">祝福</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+
+          <!-- 泸沽湖 -->
+          <article class="food-detail card" id="lugu" data-province="lugu">
+            <div class="food-detail-media food-image-lugu"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>泸沽湖 · 特产文创</h3>
+                <span class="food-dish-count">6 件精选</span>
+              </div>
+              <p class="food-detail-intro">湖畔摩梭人家的好物朴实而温暖：一瓶自酿苏里玛酒、一条手织围巾，都是女儿国独有的人情味。</p>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎁 特色物产</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-craft"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">苏里玛酒</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">摩梭人家自酿青稞酒，酸甜低度好入口，瓶装可带走，湖畔人家有售。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">自酿</span>
+                        <span class="food-tag">青稞</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-fruit"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">盐源苹果</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">泸沽湖所在盐源县高原苹果，昼夜温差大糖分足，丑苹果反而最甜。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">水果</span>
+                        <span class="food-tag">高原甜</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-scenic"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">银鱼干</span>
+                        <span class="specialty-badge specialty-badge-product">特产</span>
+                      </div>
+                      <p class="specialty-item-desc">泸沽湖小银鱼晒制，煎蛋煲汤两相宜，轻便易带的湖鲜味道。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">湖鲜</span>
+                        <span class="food-tag">干货</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="specialty-group">
+                <div class="specialty-group-title">🎨 文创好物</div>
+                <div class="specialty-items">
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-textile"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">摩梭手织围巾</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">摩梭阿妈木机手织，条纹配色鲜亮，一条围巾织进湖光山色。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">手织</span>
+                        <span class="food-tag">摩梭</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-silver"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">摩梭银饰</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">花楼纹样的手镯与耳饰，融合摩梭图腾，小巧别致适合日常佩戴。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">银饰</span>
+                        <span class="food-tag">图腾</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specialty-item">
+                    <div class="specialty-item-img sp-img-craft"></div>
+                    <div class="specialty-item-body">
+                      <div class="specialty-item-head">
+                        <span class="specialty-item-name">猪槽船木雕</span>
+                        <span class="specialty-badge specialty-badge-culture">文创</span>
+                      </div>
+                      <p class="specialty-item-desc">泸沽湖标志性猪槽船的迷你木雕摆件，把环湖泛舟的记忆摆上书桌。</p>
+                      <div class="food-dish-tags">
+                        <span class="food-tag">木雕</span>
+                        <span class="food-tag">摆件</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div class="food-float-actions" id="floatActions" aria-label="快捷导航">
+    <a href="#top" class="food-float-btn" title="返回顶部" aria-label="返回顶部">↑</a>
+    <a href="index.html" class="food-float-btn food-float-btn-home" title="返回首页" aria-label="返回首页">🏠</a>
+  </div>
+
+  <footer class="site-footer">
+    <p>特产文创 · 把云南带回家 · <a href="index.html" class="footer-home-link">返回首页</a></p>
+  </footer>
+
+  <script src="js/food.js"></script>
+</body>
+</html>

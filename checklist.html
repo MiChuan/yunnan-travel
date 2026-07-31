@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物资清单 · 七彩云南环线</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">🌸 七彩云南环线</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">首页</a>
+        <a href="routebook.html" class="nav-link">路书</a>
+        <a href="checklist.html" class="nav-link active">物资清单</a>
+        <a href="food.html" class="nav-link">滇味食志</a>
+        <a href="specialty.html" class="nav-link">特产文创</a>
+        <a href="weather.html" class="nav-link">沿途天气</a>
+        <a href="elevation.html" class="nav-link">海拔变化</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-wrap">
+    <header class="page-header">
+      <h1>🎒 物资准备清单</h1>
+      <p id="checklistSubtitle">出发前逐项勾选，进度自动保存</p>
+      <div class="meta-tags" id="metaTags"></div>
+    </header>
+
+    <div class="card">
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" id="progressFill"></div>
+      </div>
+
+      <div class="toolbar">
+        <button class="btn btn-primary" id="expandAll">展开全部</button>
+        <button class="btn btn-outline" id="collapseAll">收起全部</button>
+        <button class="btn btn-outline" id="resetAll">重置勾选</button>
+      </div>
+
+      <div class="card-body" id="checklistContainer"></div>
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-num" id="totalItems">0</div>
+          <div class="stat-label">总物品</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="checkedItems">0</div>
+          <div class="stat-label">已准备</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="progressPercent">0%</div>
+          <div class="stat-label">完成度</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" id="coreItems">0</div>
+          <div class="stat-label">核心物品</div>
+        </div>
+      </div>
+
+      <div class="footer-note" id="footerNote"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>勾选状态保存在浏览器本地 · 换设备需重新勾选</p>
+  </footer>
+
+  <div class="float-actions" id="floatActions" aria-label="快捷导航">
+    <a href="#top" class="float-btn" title="返回顶部" aria-label="返回顶部">↑</a>
+    <a href="index.html" class="float-btn float-btn-home" title="返回首页" aria-label="返回首页">🏠</a>
+  </div>
+
+  <script src="js/floatnav.js"></script>
+  <script src="js/checklist.js"></script>
+</body>
+</html>

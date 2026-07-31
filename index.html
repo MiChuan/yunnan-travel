@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>七彩云南环线 · 旅行助手</title>
+  <meta name="description" content="8天七彩云南环线路书与物资准备清单">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">🌸 七彩云南环线</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">首页</a>
+        <a href="routebook.html" class="nav-link">路书</a>
+        <a href="checklist.html" class="nav-link">物资清单</a>
+        <a href="food.html" class="nav-link">滇味食志</a>
+        <a href="specialty.html" class="nav-link">特产文创</a>
+        <a href="weather.html" class="nav-link">沿途天气</a>
+        <a href="elevation.html" class="nav-link">海拔变化</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-wrap">
+    <header class="page-header">
+      <h1>七彩云南环线</h1>
+      <p>8 天穿行春城、洱海、雪山与泸沽湖 — 路书 + 物资准备 + 滇味美食一站搞定</p>
+      <div class="meta-tags">
+        <span class="meta-tag">📅 2026年8月</span>
+        <span class="meta-tag">👥 2人</span>
+        <span class="meta-tag">🚄 高铁+包车</span>
+        <span class="meta-tag">⛰️ 海拔 1100–4506m</span>
+      </div>
+    </header>
+
+    <div class="hero-grid">
+      <a href="routebook.html" class="module-card">
+        <div class="module-icon">🗺️</div>
+        <h2>路书</h2>
+        <p>查看 8 天全程路线与每日详细行程，包含途经站点、海拔提醒与注意事项。支持全程概览与逐日切换。</p>
+        <span class="module-btn">查看路书 →</span>
+      </a>
+
+      <a href="checklist.html" class="module-card">
+        <div class="module-icon">🎒</div>
+        <h2>物资准备清单</h2>
+        <p>证件、衣物、防晒防雨、高原防护、药品等 40+ 项装备 Todo 清单。勾选进度自动保存，出发前一目了然。</p>
+        <span class="module-btn">开始准备 →</span>
+      </a>
+
+      <a href="food.html" class="module-card module-card-featured">
+        <div class="module-icon">🍜</div>
+        <h2>滇味食志</h2>
+        <p>昆明、大理、丽江、泸沽湖四地美食合集，附带图片与地区入口，点击即可进入对应美食板块。</p>
+        <span class="module-btn">逛美食地图 →</span>
+      </a>
+
+      <a href="specialty.html" class="module-card">
+        <div class="module-icon">🎁</div>
+        <h2>特产文创</h2>
+        <p>昆明、大理、丽江、泸沽湖四地特色物产与文创好物合集，带图片分类展示，挑选伴手礼一目了然。</p>
+        <span class="module-btn">看特产文创 →</span>
+      </a>
+
+      <a href="weather.html" class="module-card">
+        <div class="module-icon">🌤️</div>
+        <h2>沿途天气</h2>
+        <p>查看 11 个途经地区的实时天气与未来 7 天预报，掌握温度、降水与风向，辅助穿衣与装备决策。</p>
+        <span class="module-btn">查看天气 →</span>
+      </a>
+
+      <a href="elevation.html" class="module-card">
+        <div class="module-icon">📊</div>
+        <h2>海拔变化</h2>
+        <p>全程 14 个关键节点海拔折线图，一目了然掌握玉龙雪山高反风险，提前做好高原准备与行程规划。</p>
+        <span class="module-btn">查看海拔 →</span>
+      </a>
+    </div>
+
+    <div class="external-links" id="externalLinks"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>六枝 → 昆明 → 抚仙湖 → 大理 → 丽江 → 泸沽湖 → 贵阳</p>
+  </footer>
+
+  <script>
+    fetch("data/itinerary.json")
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById("externalLinks");
+        data.links.forEach(link => {
+          const a = document.createElement("a");
+          a.className = "external-link";
+          a.href = link.url;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.textContent = `${link.icon} ${link.name}`;
+          container.appendChild(a);
+        });
+      });
+  </script>
+</body>
+</html>

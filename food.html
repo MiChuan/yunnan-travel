@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>滇味食志 · 七彩云南环线</title>
+  <meta name="description" content="昆明美食、大理美食、丽江美食、泸沽湖美食带图片的滇味食志模块">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">🌸 七彩云南环线</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">首页</a>
+        <a href="routebook.html" class="nav-link">路书</a>
+        <a href="checklist.html" class="nav-link">物资清单</a>
+        <a href="food.html" class="nav-link active">滇味食志</a>
+        <a href="specialty.html" class="nav-link">特产文创</a>
+        <a href="weather.html" class="nav-link">沿途天气</a>
+        <a href="elevation.html" class="nav-link">海拔变化</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-wrap food-page">
+    <header class="page-header">
+      <h1>滇味食志</h1>
+      <p>用一口美食，记住昆明、大理、丽江、泸沽湖的路途风味</p>
+      <div class="meta-tags">
+        <span class="meta-tag">🥘 四地美食</span>
+        <span class="meta-tag">📷 图文展示</span>
+        <span class="meta-tag">🧭 地区锚点导航</span>
+      </div>
+    </header>
+
+    <div class="food-layout">
+      <aside class="card food-sidebar" aria-label="地区美食导航">
+        <div class="food-sidebar-title">地区导航</div>
+        <nav class="food-province-nav" id="provinceNav">
+          <a href="#kunming" class="food-nav-item" data-province="kunming">
+            <span class="food-nav-icon">🌼</span>
+            <span class="food-nav-text">
+              <strong>昆明</strong>
+              <small>过桥米线 · 汽锅鸡 · 菌子</small>
+            </span>
+          </a>
+          <a href="#dali" class="food-nav-item" data-province="dali">
+            <span class="food-nav-icon">🏯</span>
+            <span class="food-nav-text">
+              <strong>大理</strong>
+              <small>烤乳扇 · 喜洲粑粑 · 砂锅鱼</small>
+            </span>
+          </a>
+          <a href="#lijiang" class="food-nav-item" data-province="lijiang">
+            <span class="food-nav-icon">🏮</span>
+            <span class="food-nav-text">
+              <strong>丽江</strong>
+              <small>腊排骨 · 鸡豆凉粉 · 粑粑</small>
+            </span>
+          </a>
+          <a href="#lugu" class="food-nav-item" data-province="lugu">
+            <span class="food-nav-icon">🌊</span>
+            <span class="food-nav-text">
+              <strong>泸沽湖</strong>
+              <small>猪膘肉 · 银鱼 · 苏里玛酒</small>
+            </span>
+          </a>
+        </nav>
+        <div class="food-sidebar-actions">
+          <a href="#top" class="food-sidebar-btn">↑ 返回顶部</a>
+          <a href="index.html" class="food-sidebar-btn food-sidebar-btn-outline">🏠 返回首页</a>
+        </div>
+      </aside>
+
+      <div class="food-main">
+        <section class="food-hero card">
+          <div class="card-body food-hero-body">
+            <div>
+              <h2>沿着路线，尝遍滇味风情</h2>
+              <p>左侧地区导航可快速跳转到对应美食板块；每个地区精选 4–5 道代表菜，附简要介绍与风味标签。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="food-grid" aria-label="地区美食速览">
+          <a class="food-card" href="#kunming">
+            <div class="food-image food-image-kunming"></div>
+            <div class="food-card-body">
+              <h2>昆明美食</h2>
+              <p>过桥米线、汽锅鸡、野生菌火锅、鲜花饼，春城的鲜与香一次尝个够。</p>
+              <span class="food-link">查看 5 道代表菜 →</span>
+            </div>
+          </a>
+
+          <a class="food-card" href="#dali">
+            <div class="food-image food-image-dali"></div>
+            <div class="food-card-body">
+              <h2>大理美食</h2>
+              <p>烤乳扇、喜洲粑粑、砂锅鱼、雕梅扣肉，白族风味在苍山洱海间飘香。</p>
+              <span class="food-link">查看 5 道代表菜 →</span>
+            </div>
+          </a>
+
+          <a class="food-card" href="#lijiang">
+            <div class="food-image food-image-lijiang"></div>
+            <div class="food-card-body">
+              <h2>丽江美食</h2>
+              <p>腊排骨火锅、鸡豆凉粉、丽江粑粑、纳西烤肉，古城烟火气十足。</p>
+              <span class="food-link">查看 5 道代表菜 →</span>
+            </div>
+          </a>
+
+          <a class="food-card" href="#lugu">
+            <div class="food-image food-image-lugu"></div>
+            <div class="food-card-body">
+              <h2>泸沽湖美食</h2>
+              <p>猪膘肉、银鱼煎蛋、苏里玛酒、摩梭粑粑，湖畔摩梭人家的待客滋味。</p>
+              <span class="food-link">查看 4 道代表菜 →</span>
+            </div>
+          </a>
+        </section>
+
+        <section class="food-detail-list">
+          <article class="food-detail card" id="kunming" data-province="kunming">
+            <div class="food-detail-media food-image-kunming"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>昆明美食</h3>
+                <span class="food-dish-count">5 道代表菜</span>
+              </div>
+              <p class="food-detail-intro">昆明菜集云南各地风味之大成，米线、菌子、鲜花皆可入馔。文化巷、南强街与官渡古镇都是寻味好去处。</p>
+              <ul class="food-dish-list">
+                <li class="food-dish">
+                  <div class="food-dish-name">过桥米线</div>
+                  <p class="food-dish-desc">滚烫鸡汤配数十碟生鲜配料，入碗即熟，仪式感与鲜味兼具，云南美食第一名片。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">米线</span>
+                    <span class="food-tag">招牌</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">汽锅鸡</div>
+                  <p class="food-dish-desc">建水紫陶汽锅蒸制，不加一滴水，汤汁全靠蒸汽凝成，鸡汤清澈鲜甜。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">滋补</span>
+                    <span class="food-tag">名菜</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">野生菌火锅</div>
+                  <p class="food-dish-desc">雨季限定！鸡枞、松茸、牛肝菌一锅炖，鲜掉眉毛，务必煮透再吃。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">菌子</span>
+                    <span class="food-tag">季节限定</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">小锅米线</div>
+                  <p class="food-dish-desc">铜锅现煮，酸腌菜与鲜肉帽子提味，昆明人从小吃到大的日常味道。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">米线</span>
+                    <span class="food-tag">市井</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">鲜花饼</div>
+                  <p class="food-dish-desc">现烤玫瑰花馅酥饼，花香四溢，斗南花市边吃边逛，伴手礼首选。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">点心</span>
+                    <span class="food-tag">伴手礼</span>
+                  </div>
+                </li>
+              </ul>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+
+          <article class="food-detail card" id="dali" data-province="dali">
+            <div class="food-detail-media food-image-dali"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>大理美食</h3>
+                <span class="food-dish-count">5 道代表菜</span>
+              </div>
+              <p class="food-detail-intro">大理白族饮食讲究酸辣鲜香，乳制品与洱海鱼鲜独具特色。古城人民路与喜洲古镇街头小吃云集。</p>
+              <ul class="food-dish-list">
+                <li class="food-dish">
+                  <div class="food-dish-name">烤乳扇</div>
+                  <p class="food-dish-desc">白族特色乳制品，炭火烤软后卷上玫瑰酱，奶香浓郁，古城街头人手一支。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">小吃</span>
+                    <span class="food-tag">乳制品</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">喜洲粑粑</div>
+                  <p class="food-dish-desc">破酥千层饼，甜咸两味，现烤酥脆，喜洲古镇四方街的老字号最地道。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">面点</span>
+                    <span class="food-tag">喜洲</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">砂锅鱼</div>
+                  <p class="food-dish-desc">洱海弓鱼配十余种配料入砂锅慢炖，汤浓味鲜，大理宴客名菜。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">鱼鲜</span>
+                    <span class="food-tag">硬菜</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">雕梅扣肉</div>
+                  <p class="food-dish-desc">洱源雕梅与五花肉同蒸，果酸解腻、肉香回甘，酸甜口的白族功夫菜。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">酸甜</span>
+                    <span class="food-tag">白族菜</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">生皮</div>
+                  <p class="food-dish-desc">火烧猪皮配梅子醋蘸水，白族传统吃法，口感弹韧、蘸水酸辣过瘾。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">传统</span>
+                    <span class="food-tag">蘸水</span>
+                  </div>
+                </li>
+              </ul>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+
+          <article class="food-detail card" id="lijiang" data-province="lijiang">
+            <div class="food-detail-media food-image-lijiang"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>丽江美食</h3>
+                <span class="food-dish-count">5 道代表菜</span>
+              </div>
+              <p class="food-detail-intro">丽江纳西族美食带着雪山脚下的粗犷与实在，腊味与粗粮面点是主角。古城四方街与忠义市场滋味最足。</p>
+              <ul class="food-dish-list">
+                <li class="food-dish">
+                  <div class="food-dish-name">腊排骨火锅</div>
+                  <p class="food-dish-desc">风干腊排骨炖出咸香浓汤，配时蔬涮煮，高原夜晚最暖身的一锅。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">火锅</span>
+                    <span class="food-tag">暖身</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">鸡豆凉粉</div>
+                  <p class="food-dish-desc">丽江特有鸡豆制成，夏拌冬煎两种吃法，酸辣爽口，古城小吃代表。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">小吃</span>
+                    <span class="food-tag">酸辣</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">丽江粑粑</div>
+                  <p class="food-dish-desc">千层油酥饼，有甜咸两味，耐存放，旧时茶马古道马帮的干粮。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">面点</span>
+                    <span class="food-tag">茶马古道</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">纳西烤肉</div>
+                  <p class="food-dish-desc">五花肉炭火慢烤至皮脆肉嫩，肥而不腻，配一杯梅子酒正好。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">烤肉</span>
+                    <span class="food-tag">纳西味</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">米灌肠</div>
+                  <p class="food-dish-desc">糯米与猪血灌制蒸熟，煎烤后外脆里糯，纳西人家的传统早点。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">传统</span>
+                    <span class="food-tag">早餐</span>
+                  </div>
+                </li>
+              </ul>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+
+          <article class="food-detail card" id="lugu" data-province="lugu">
+            <div class="food-detail-media food-image-lugu"></div>
+            <div class="card-body">
+              <div class="food-detail-header">
+                <h3>泸沽湖美食</h3>
+                <span class="food-dish-count">4 道代表菜</span>
+              </div>
+              <p class="food-detail-intro">泸沽湖畔的摩梭人家以湖鲜与腊味待客，围着火塘吃一顿摩梭家宴，是环湖之外最难忘的体验。</p>
+              <ul class="food-dish-list">
+                <li class="food-dish">
+                  <div class="food-dish-name">猪膘肉</div>
+                  <p class="food-dish-desc">摩梭人传统腌肉，整猪腌制风干数年，切片蒸食咸香醇厚，家宴必备。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">腊味</span>
+                    <span class="food-tag">摩梭</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">银鱼煎蛋</div>
+                  <p class="food-dish-desc">泸沽湖小银鱼与土鸡蛋同煎，鲜嫩金黄，湖畔客栈的招牌家常菜。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">湖鲜</span>
+                    <span class="food-tag">家常</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">苏里玛酒</div>
+                  <p class="food-dish-desc">摩梭人自酿低度青稞酒，酸甜微醺，被称作"摩梭啤酒"，待客必上。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">饮品</span>
+                    <span class="food-tag">自酿</span>
+                  </div>
+                </li>
+                <li class="food-dish">
+                  <div class="food-dish-name">摩梭粑粑</div>
+                  <p class="food-dish-desc">苦荞或麦面烙制，蘸蜂蜜吃粗粮回甘，火塘边现烙最香。</p>
+                  <div class="food-dish-tags">
+                    <span class="food-tag">粗粮</span>
+                    <span class="food-tag">火塘</span>
+                  </div>
+                </li>
+              </ul>
+              <a href="#top" class="food-section-back">↑ 返回顶部</a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <div class="food-float-actions" id="floatActions" aria-label="快捷导航">
+    <a href="#top" class="food-float-btn" title="返回顶部" aria-label="返回顶部">↑</a>
+    <a href="index.html" class="food-float-btn food-float-btn-home" title="返回首页" aria-label="返回首页">🏠</a>
+  </div>
+
+  <footer class="site-footer">
+    <p>滇味食志 · 一路走，一路吃 · <a href="index.html" class="footer-home-link">返回首页</a></p>
+  </footer>
+
+  <script src="js/food.js"></script>
+</body>
+</html>

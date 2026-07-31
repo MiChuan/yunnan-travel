@@ -1,0 +1,111 @@
+{
+  "title": "海拔变化图",
+  "subtitle": "全程海拔 1100–4506m",
+  "stats": {
+    "maxAltitude": 4506,
+    "minAltitude": 1100,
+    "maxPoint": "玉龙雪山冰川公园",
+    "minPoint": "贵阳",
+    "highRiskCount": 1
+  },
+  "points": [
+    {
+      "day": 1,
+      "name": "六枝",
+      "altitude": 1350,
+      "icon": "🚄",
+      "note": "出发城市"
+    },
+    {
+      "day": 1,
+      "name": "昆明",
+      "altitude": 1890,
+      "icon": "🌼",
+      "note": "春城，斗南花市、民族大观园"
+    },
+    {
+      "day": 2,
+      "name": "滇池海埂",
+      "altitude": 1886,
+      "icon": "💧",
+      "note": "海埂公园、海晏村日落"
+    },
+    {
+      "day": 3,
+      "name": "抚仙湖",
+      "altitude": 1722,
+      "icon": "🏞️",
+      "note": "云南段最低点，深水湖泊"
+    },
+    {
+      "day": 4,
+      "name": "大理古城",
+      "altitude": 2000,
+      "icon": "🏯",
+      "note": "洱海、崇圣寺三塔"
+    },
+    {
+      "day": 4,
+      "name": "苍山地质公园",
+      "altitude": 2600,
+      "icon": "⛰️",
+      "note": "索道游览区域，天气多变"
+    },
+    {
+      "day": 5,
+      "name": "双廊古镇",
+      "altitude": 1975,
+      "icon": "🛶",
+      "note": "洱海东岸"
+    },
+    {
+      "day": 5,
+      "name": "丽江古城",
+      "altitude": 2400,
+      "icon": "🏮",
+      "note": "木府、束河古镇"
+    },
+    {
+      "day": 6,
+      "name": "白沙古镇",
+      "altitude": 2450,
+      "icon": "🏘️",
+      "note": "纳西古村落"
+    },
+    {
+      "day": 6,
+      "name": "玉龙雪山冰川公园",
+      "altitude": 4506,
+      "icon": "🏔️",
+      "note": "全程最高，备好氧气瓶"
+    },
+    {
+      "day": 6,
+      "name": "黑龙潭/观音峡",
+      "altitude": 2400,
+      "icon": "⛲",
+      "note": "回到丽江坝子"
+    },
+    {
+      "day": 7,
+      "name": "泸沽湖",
+      "altitude": 2690,
+      "icon": "🌊",
+      "note": "高原湖泊，紫外线强"
+    },
+    {
+      "day": 8,
+      "name": "丽江",
+      "altitude": 2400,
+      "icon": "🏮",
+      "note": "返程出发"
+    },
+    {
+      "day": 8,
+      "name": "贵阳",
+      "altitude": 1100,
+      "icon": "🌿",
+      "note": "全程最低，返程结束"
+    }
+  ]
+}

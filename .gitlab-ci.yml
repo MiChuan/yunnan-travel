@@ -1,0 +1,12 @@
+# GitLab Pages：纯静态站点，直接发布仓库根目录
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - mkdir -p public
+    - cp -r index.html routebook.html checklist.html food.html specialty.html weather.html elevation.html css js data public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>海拔变化 · 七彩云南环线</title>
+  <meta name="description" content="查看七彩云南环线全程海拔变化折线图，掌握玉龙雪山高反风险">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">🌸 七彩云南环线</a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">首页</a>
+        <a href="routebook.html" class="nav-link">路书</a>
+        <a href="checklist.html" class="nav-link">物资清单</a>
+        <a href="food.html" class="nav-link">滇味食志</a>
+        <a href="specialty.html" class="nav-link">特产文创</a>
+        <a href="weather.html" class="nav-link">沿途天气</a>
+        <a href="elevation.html" class="nav-link active">海拔变化</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-wrap elevation-page">
+    <header class="page-header">
+      <h1>海拔变化</h1>
+      <p>全程 14 个关键节点海拔折线图，一目了然掌握玉龙雪山高反风险，提前做好高原准备</p>
+      <div class="meta-tags">
+        <span class="meta-tag">📈 最高 4506m</span>
+        <span class="meta-tag">📉 最低 1100m</span>
+        <span class="meta-tag">📍 14 个途经点</span>
+      </div>
+    </header>
+
+    <div class="elevation-stats" id="elevationStats"></div>
+
+    <section class="card elevation-chart-card">
+      <div class="card-body">
+        <div class="chart-header">
+          <h2>全程海拔变化折线图</h2>
+          <div class="chart-legend">
+            <span class="legend-item"><span class="legend-dot legend-safe"></span>安全 (＜3000m)</span>
+            <span class="legend-item"><span class="legend-dot legend-warning"></span>注意 (3000-4000m)</span>
+            <span class="legend-item"><span class="legend-dot legend-danger"></span>高反风险 (＞4000m)</span>
+          </div>
+        </div>
+        <div class="chart-container">
+          <canvas id="elevationChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="card elevation-points-card">
+      <div class="card-body">
+        <h2>途经点海拔详情</h2>
+        <div class="elevation-points-grid" id="elevationPoints"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>海拔数据仅供参考 · 实际以当地为准 · <a href="index.html" class="footer-home-link">返回首页</a></p>
+  </footer>
+
+  <div class="float-actions" id="floatActions" aria-label="快捷导航">
+    <a href="#top" class="float-btn" title="返回顶部" aria-label="返回顶部">↑</a>
+    <a href="index.html" class="float-btn float-btn-home" title="返回首页" aria-label="返回首页">🏠</a>
+  </div>
+
+  <script src="js/floatnav.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <script src="js/elevation.js"></script>
+</body>
+</html>

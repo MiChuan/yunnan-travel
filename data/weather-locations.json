@@ -1,0 +1,114 @@
+{
+  "regions": [
+    {
+      "id": "liuzhi",
+      "name": "六枝",
+      "province": "贵州",
+      "icon": "🚄",
+      "latitude": 26.2131,
+      "longitude": 105.4802,
+      "altitude": "1350m",
+      "note": "出发城市"
+    },
+    {
+      "id": "kunming",
+      "name": "昆明",
+      "province": "云南",
+      "icon": "🌼",
+      "latitude": 25.0430,
+      "longitude": 102.7062,
+      "altitude": "1890m",
+      "note": "春城，Day 1-3 驻地"
+    },
+    {
+      "id": "dianchi",
+      "name": "滇池/海晏村",
+      "province": "云南",
+      "icon": "🌅",
+      "latitude": 24.8760,
+      "longitude": 102.6600,
+      "altitude": "1886m",
+      "note": "海埂公园与海晏村日落"
+    },
+    {
+      "id": "fuxianhu",
+      "name": "抚仙湖",
+      "province": "云南",
+      "icon": "🏞️",
+      "latitude": 24.5300,
+      "longitude": 102.8800,
+      "altitude": "1722m",
+      "note": "Day 3 一日游，全程最低"
+    },
+    {
+      "id": "dali",
+      "name": "大理",
+      "province": "云南",
+      "icon": "🏯",
+      "latitude": 25.6065,
+      "longitude": 100.2676,
+      "altitude": "2000m",
+      "note": "古城、洱海、崇圣寺三塔"
+    },
+    {
+      "id": "cangshan",
+      "name": "苍山",
+      "province": "云南",
+      "icon": "⛰️",
+      "latitude": 25.6650,
+      "longitude": 100.1080,
+      "altitude": "2600m+",
+      "note": "世界地质公园，索道上山"
+    },
+    {
+      "id": "shuanglang",
+      "name": "双廊",
+      "province": "云南",
+      "icon": "🛶",
+      "latitude": 25.8980,
+      "longitude": 100.1930,
+      "altitude": "1975m",
+      "note": "洱海东岸网红古镇"
+    },
+    {
+      "id": "lijiang",
+      "name": "丽江",
+      "province": "云南",
+      "icon": "🏮",
+      "latitude": 26.8550,
+      "longitude": 100.2270,
+      "altitude": "2400m",
+      "note": "古城、木府、束河"
+    },
+    {
+      "id": "yulong",
+      "name": "玉龙雪山",
+      "province": "云南",
+      "icon": "🏔️",
+      "latitude": 27.1000,
+      "longitude": 100.1800,
+      "altitude": "4506m",
+      "note": "冰川公园，全程最高"
+    },
+    {
+      "id": "lugu",
+      "name": "泸沽湖",
+      "province": "云南/四川",
+      "icon": "🌊",
+      "latitude": 27.7000,
+      "longitude": 100.7830,
+      "altitude": "2690m",
+      "note": "摩梭风情，昼夜温差大"
+    },
+    {
+      "id": "guiyang",
+      "name": "贵阳",
+      "province": "贵州",
+      "icon": "🌿",
+      "latitude": 26.6470,
+      "longitude": 106.6302,
+      "altitude": "1100m",
+      "note": "返程城市"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "title": "旅行装备 Checklist",
+  "subtitle": "8天七彩云南环线 · 轻装版",
+  "sections": [
+    {
+      "id": "documents",
+      "name": "证件类",
+      "icon": "📋",
+      "color": "#e74c3c",
+      "items": [
+        { "name": "身份证", "desc": "必带！高铁+景区全程需要", "tag": "core" },
+        { "name": "学生证", "desc": "景区门票优惠", "tag": "rec" },
+        { "name": "少量现金", "desc": "古镇小摊备用", "tag": "rec" },
+        { "name": "车票/预约截图", "desc": "玉龙雪山、省博物馆预约凭证", "tag": "core" }
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "衣物类",
+      "icon": "👕",
+      "color": "#3498db",
+      "items": [
+        { "name": "轻薄羽绒服/厚外套", "desc": "玉龙雪山冰川公园必备", "tag": "core" },
+        { "name": "冲锋衣/防风外套", "desc": "泸沽湖、苍山早晚温差大", "tag": "core" },
+        { "name": "短袖T恤", "desc": "3-4件，低海拔白天穿", "tag": "core" },
+        { "name": "长袖衬衫/薄针织", "desc": "2件，昆明大理早晚穿", "tag": "core" },
+        { "name": "长裤", "desc": "2-3条，舒适速干为主", "tag": "core" },
+        { "name": "舒适步行鞋", "desc": "古城石板路走路多", "tag": "core" },
+        { "name": "拖鞋/凉鞋", "desc": "抚仙湖沙滩、酒店用", "tag": "rec" },
+        { "name": "袜子", "desc": "5-6双", "tag": "core" },
+        { "name": "遮阳帽", "desc": "高原紫外线强", "tag": "core" },
+        { "name": "长裙/民族风衣饰", "desc": "古城、洱海拍照出片", "tag": "opt" },
+        { "name": "泳衣", "desc": "抚仙湖下水用", "tag": "opt" },
+        { "name": "薄围巾/披肩", "desc": "雪山防风+拍照两用", "tag": "rec" }
+      ]
+    },
+    {
+      "id": "sunrain",
+      "name": "防晒防雨",
+      "icon": "🌦️",
+      "color": "#9b59b6",
+      "items": [
+        { "name": "防晒霜 SPF50+", "desc": "高原紫外线极强，2瓶", "tag": "core" },
+        { "name": "墨镜", "desc": "雪山+湖面反光", "tag": "core" },
+        { "name": "润唇膏", "desc": "高原干燥", "tag": "core" },
+        { "name": "折叠伞/轻便雨衣", "desc": "8月雨季，午后阵雨多", "tag": "core" },
+        { "name": "防晒冰袖", "desc": "户外徒步用", "tag": "rec" },
+        { "name": "保温杯", "desc": "多喝温水", "tag": "rec" }
+      ]
+    },
+    {
+      "id": "altitude",
+      "name": "高原防护",
+      "icon": "🏔️",
+      "color": "#e67e22",
+      "items": [
+        { "name": "便携氧气瓶", "desc": "玉龙雪山冰川公园用，1-2瓶", "tag": "core" },
+        { "name": "葡萄糖口服液", "desc": "快速补充能量缓解高反", "tag": "core" },
+        { "name": "红景天", "desc": "体质敏感者提前服用", "tag": "opt" },
+        { "name": "巧克力/士力架", "desc": "雪山上补充热量", "tag": "rec" }
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "药品包",
+      "icon": "💊",
+      "color": "#c0392b",
+      "items": [
+        { "name": "布洛芬", "desc": "退烧止痛、高反头痛", "tag": "core" },
+        { "name": "晕车药", "desc": "泸沽湖山路多弯必备", "tag": "core" },
+        { "name": "感冒药", "desc": "早晚温差大易感冒", "tag": "rec" },
+        { "name": "肠胃药/蒙脱石散", "desc": "菌子火锅、乳扇尝鲜备用", "tag": "rec" },
+        { "name": "创可贴", "desc": "古城走路磨脚", "tag": "rec" },
+        { "name": "驱蚊液", "desc": "湖边、古镇夏季蚊虫", "tag": "rec" }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "电子设备",
+      "icon": "📱",
+      "color": "#1abc9c",
+      "items": [
+        { "name": "手机", "desc": "日常必备", "tag": "core" },
+        { "name": "充电宝 10000mAh+", "desc": "全天在外耗电快", "tag": "core" },
+        { "name": "相机", "desc": "洱海、雪山、泸沽湖出片", "tag": "rec" },
+        { "name": "相机备用电池", "desc": "雪山低温掉电快", "tag": "rec" },
+        { "name": "三脚架", "desc": "海晏村日落、星空", "tag": "opt" },
+        { "name": "插线板", "desc": "酒店插座不够", "tag": "opt" }
+      ]
+    },
+    {
+      "id": "daily",
+      "name": "日用洗漱",
+      "icon": "🧴",
+      "color": "#f39c12",
+      "items": [
+        { "name": "旅行装洗漱用品", "desc": "洗发水/沐浴露/牙膏/牙刷", "tag": "core" },
+        { "name": "速干毛巾", "desc": "1-2条", "tag": "rec" },
+        { "name": "湿巾/免洗洗手液", "desc": "路上清洁", "tag": "rec" },
+        { "name": "面膜/保湿乳", "desc": "高原干燥晒后修复", "tag": "rec" },
+        { "name": "一次性内裤", "desc": "8条，省去换洗", "tag": "opt" }
+      ]
+    }
+  ],
+  "reminders": [
+    "玉龙雪山大索道提前预约",
+    "云南省博物馆预约",
+    "斗南花市傍晚去更热闹",
+    "8月雨季随身带伞"
+  ]
+}
